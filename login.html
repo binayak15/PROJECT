@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up Signin</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+<body>
+<div id="form">
+  <div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-md-8 col-md-offset-2">
+      <div id="userform">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+          <li class="active"><a href="#signup"  role="tab" data-toggle="tab">Sign up</a></li>
+          <li><a href="#login"  role="tab" data-toggle="tab">Log in</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade active in" id="signup">
+            <h2 class="text-uppercase text-center"> Sign Up for Free</h2>
+            <form id="signup">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label>First Name<span class="req" name="fname">*</span> </label>
+                    <input type="text" class="form-control" id="first_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label> Last Name<span class="req" name="lname">*</span> </label>
+                    <input type="text" class="form-control" id="last_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label> Your Email<span class="req" name="email">*</span> </label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Your Phone<span class="req" name="phone">*</span> </label>
+                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <form action="connect.php" method="post">
+                <label> Password<span class="req" name="password">*</span> </label>
+                <input type="password" class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <button type="submit" class="btn btn-larger btn-block"/>
+                Sign up
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane fade in" id="login">
+            <h2 class="text-uppercase text-center"> Log in</h2>
+            <form id="login">
+              <div class="form-group">
+                <label> Your Email<span class="req">*</span> </label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Password<span class="req">*</span> </label>
+                <input type="password" class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <button type="submit" class="btn btn-larger btn-block"/>
+                Log in
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container --> 
+</div>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<!-- partial -->
+  <script  src="login.js"></script>
+  <style>
+    * {
+      zoom: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background: #f1c2c7;
+    font-family: 'Rubik', sans-serif;
+  }
+  .login-form {
+    background: #fff;
+    width: 500px;
+    margin: 65px auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+    font-size: xx-large;
+  }
+  .login-form h1 {
+    padding: 35px 35px 0 35px;
+    font-weight: 300; 
+    font-size: 30px;
+  }
+  .login-form .content {
+    padding: 35px;
+    text-align: center;   font-size: 30px;  
+  }
+  .login-form .input-field {
+    padding: 12px 5px;   font-size: 30px;
+  }
+  .login-form .input-field input {
+    font-size: 66px;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;   font-size: 30px;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  .login-form .input-field input::-webkit-input-placeholder {
+    text-transform: uppercase;   font-size: 30px;
+  }
+  .login-form .input-field input::-moz-placeholder {
+    text-transform: uppercase; 
+    font-size: 30px;
+  }
+  .login-form .input-field input:-ms-input-placeholder {
+    text-transform: uppercase;   font-size: 30px;
+  }
+  .login-form .input-field input::-ms-input-placeholder {
+    text-transform: uppercase;   font-size: 30px;
+  }
+  .login-form .input-field input::placeholder {
+    text-transform: uppercase;   font-size: 30px;
+  }
+  .login-form .input-field input:focus {
+    border-color: #222;  font-size: 30px;
+  }
+  .login-form a.link {
+    text-decoration: none; 
+    font-size: 30px;
+    color: #747474;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .login-form .action {
+    display: -webkit-box;   font-size: 30px;
+    
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+  }
+  .login-form .action button {
+    width: 100%;
+    border: none;   font-size: 30px;
+    padding: 18px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #e8e9ec;
+    color: #777;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    letter-spacing: 0.2px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  .login-form .action button:hover {
+    background: #d8d8d8;   font-size: 30px; 
+  }
+  .login-form .action button:nth-child(2) {
+    background: #2d3b55;
+    color: #fff;  font-size: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 4px;  
+  }
+  .login-form .action button:nth-child(2):hover {
+    background: #3c4d6d;   font-size: 30px;
+  }
+  </style>
+</body>
+</html>

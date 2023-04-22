@@ -1,0 +1,194 @@
+body, html {
+    height: 90%;
+    margin: 0;
+  }
+  .hi{
+    color: rgb(242, 255, 0);
+    font:size: 20px;
+  }
+  .bg {
+ 
+    background-image: url("destinations/Tampra\ cover.jpg");
+ 
+    height: 85%; 
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .popular{
+    text-align: center;
+    color: #000000;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: rgb(249, 138, 47);
+   
+   
+  }
+  a:link, a:visited {
+    background-color: #0544a4;
+    color: rgb(255, 255, 255);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(227, 131, 47);
+  }
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(0, 255, 38);
+    font-family:cursive;
+    font-weight: bolder;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .bookdate{
+    
+      text-align: center;
+      align-content: center;
+      align-items: center;
+      margin: 7px;
+      padding: 7px;
+      font-family: cursive;
+      background-color: #4191f3;
+      font-size:32px;
+  
+      
+  }
+  .input-field{
+   font-size: xx-large;
+  }
+  .inquire{
+    color: var(--white);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60%;
+    border-radius: 100px;
+    padding: var(--padding, 5px 13px);
+    
+   
+  }
+ 
+  
+   .nav {
+    overflow: hidden;
+    background-color: #f34141;
+    
+  }
+  .nav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+  }
+  
+  .nav a:hover {
+    background-color: #ffffff;
+    color: black;
+   
+  }
+  
+  .nav a.active {
+    background-color: #c70000;
+    color: white;
+  }
+
+
+.column {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    border: #ed0000;
+  }
+  figcaption {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    padding: 2px;
+    text-align: center;
+    font: size 10px;
+  }
+ .visitmore{
+  text-align: center;
+  font-size:20px;
+  color: #ff7700;
+  font-family:cursive;
+  background-color: bisque;
+
+ }
+.visitmore a:link{
+  border-radius: 170px;
+}
+.pics{
+  text-align: center;
+  font-size: 80px;
+  color: #f64141;
+  font-weight: bolder;
+  font-family:cursive;
+background-color: rgba(233, 247, 192, 0.824);
+  margin: 3px;
+  padding: 3px;
+  font-size: 25px;
+  border-radius: 0%;
+  animation: alternate-reverse;
+}
+.end {
+  padding: 10px;
+  font-size: 25px;
+ max: width 100px;
+ color: cornsilk;
+ font-family: cursive;
+ font-weight: bolder;
+align-content:center ;
+ text-align: center;
+ background-color: #0544a4;
+}
+.end:hover {
+    opacity: 0.7;
+}
+.end2{
+  text-align: center;
+  text-decoration: none;
+  margin:1px;
+ font-family: cursive;
+ font-weight: bolder;
+ background-color: #003788;
+ color: aliceblue;
+font-size: larger;
+}
+.new{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: bolder;
+  background-color:  rgba(238, 185, 143, 0.824);
+  margin: 1px;
+  padding: 1px;
+}
+
+
+
+
+
+

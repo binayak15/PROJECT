@@ -1,0 +1,20 @@
+.column{
+  padding: 10px;
+margin-left: 20px;
+  margin-top: 10px;
+   zoom: 60%;
+    float: left;
+border-radius: 5px;
+}
+*{
+  background-color: rgb(207, 231, 178);
+box-sizing: border-box;
+}
+.column:hover {
+  transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.popular{
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+}
